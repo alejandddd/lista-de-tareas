@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(184, 224, 217, 0.651);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.titulo{
+    text-align: center;
+    margin: 1.5em;
+}
+.cuadrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tarea{
+    width: 40%;
+    height: 2.5em;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.descripcion{
+    width: 40%;
+    height: 4em;
+    background-color: aliceblue;
+    border-radius: 20px;
+    margin: 30px; 
+}
+.guardar{
+    width: 40%;
+    height: 3em;
+    text-align: center;
+}
+.titulo2{
+    text-align: center;
+}
+.tareas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.texto{
+    width: 30%;
+    height: 1em;
+    background-color: rgba(240, 248, 255, 0.795);
+    margin: 10px;
+}
+.edit{
+    margin-left: 10px;
+    margin-right: 10px;
+}
