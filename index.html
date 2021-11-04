@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TO-DO</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    
+    <div class="hero">
+      <div class="new-task">
+        <h1>Nueva Tarea</h1>
+        <input id="title-task" type="text" placeholder="Título de la tarea" />
+        <textarea
+          id="description-task"
+          type="text"
+          placeholder="Descripción de la tarea"
+        ></textarea>
+        <button id="save-btn">Guardar</button>
+      </div>
+      <div class="list-tasks">
+        <div class="title-list">
+          <h2>Lista TO-DO</h2>
+        </div>
+        <div class="list" id="list-container"></div>
+      </div>
+    </div>
+    <dialog id="task-detail-dialog">
+      <div class="dialog">
+        <div class="task-detail">
+          <div id="close-dialog" class="close-dialog">x</div>
+          <div id="task-detail"></div>
+        </div>
+      </div>
+    </dialog>
+    <div class="busqueda">
+        <h4>Buscar</h4>
+        <input type="text" id="formulario">
+        <button class="btn" id="btn">buscar</button>
+    </div>
+    <script src="js/js.js"></script>
+  </body>
+</html>
